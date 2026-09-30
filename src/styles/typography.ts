@@ -1,0 +1,30 @@
+export const typography = {
+  fontFamily: {
+    regular: "Inter_400Regular",
+    medium: "Inter_500Medium",
+    bold: "Inter_700Bold",
+  },
+  size: {
+    xs: 12,
+    sm: 14,
+    md: 16,
+    lg: 20,
+    xl: 24,
+    xxl: 32,
+  },
+  lineHeight: {
+    xs: 16,
+    sm: 20,
+    md: 22,
+    lg: 28,
+    xl: 34,
+    xxl: 45,
+  },
+  lineHeightRatio: { tight: 1.2, normal: 1.4, relaxed: 1.6 },
+  display: { fontFamily: "Inter_700Bold", fontSize: 24, lineHeight: 30, fontWeight: "700" as const },
+  title: { fontFamily: "Inter_700Bold", fontSize: 24, lineHeight: 30, fontWeight: "700" as const },
+  heading: { fontFamily: "Inter_700Bold", fontSize: 20, lineHeight: 26, fontWeight: "700" as const },
+  body: { fontFamily: "Inter_400Regular", fontSize: 16, lineHeight: 22 },
+  small: { fontFamily: "Inter_400Regular", fontSize: 12, lineHeight: 16 },
+  label: { fontFamily: "Inter_500Medium", fontSize: 12, lineHeight: 16, fontWeight: "500" as const },
+} as const;

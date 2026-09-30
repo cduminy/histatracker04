@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "HistaTracker",
+    "slug": "histatracker04",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Hista Logo.png",
+    "scheme": "histatracker04",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/Hista Logo.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/Hista Logo.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/Hista Logo.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F9FAF9",
+          "image": "./assets/images/HistaTracker Logo.png",
+          "imageWidth": 160,
+          "dark": {
+            "backgroundColor": "#F9FAF9",
+            "image": "./assets/images/Hista Logo.png"
+          }
+        }
+      ],
+      "expo-router",
+      "expo-sharing"
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
